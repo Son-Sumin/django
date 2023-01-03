@@ -1,0 +1,11 @@
+**/.ipynb_checkpoints
+**/cache
+*.zip
+*.json
+**/.json
+**/.idea
+**/__pycache__
+
+
+# settings.py 연습 프로젝트이므로 gitignore 추가 안함
+# settings.py 의 키 .json 파일 등으로 따로 관리 필수
