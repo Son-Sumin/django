@@ -15,4 +15,15 @@ Windows Terminal로 miniconda 설치 및 세팅은 [링크](https://github.com/S
       상단 'download' > 우측 'Previous releases' > Django 3.2.16 (LTS) 사용 예정으므로 확인   
     - [anaconda django](https://anaconda.org/anaconda/django) 명령어 확인   
       (web-env) 확인 후
-      --- conda install -c anaconda django=3.2  
+      --- conda install -c anaconda django=3.2   
+
+2. Pycharm 세팅   
+   - Pycharm   
+     Windows PowerShell 확인 후   
+     ---conda activate web-env   
+  
+     - django 프로젝트 만들기   
+      ---django-admin startproject board .   
+      ---python manage.py startapp bulletin_board   
+      ---ls (상태 확인)
+         * django-admin startproject 프로젝트 이름 .(현재위치에)
