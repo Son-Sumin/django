@@ -19,6 +19,10 @@ Windows Terminal로 miniconda 설치 및 세팅은 [링크](https://github.com/S
 
 2. Pycharm 세팅   
    - Pycharm   
+     상단 File > new project > 아래 사진 참고 > ok     
+     ![pycharm1](https://user-images.githubusercontent.com/114986832/210559528-cc534c3b-bc70-4ab2-a474-f11c6ac8adf6.png)
+     ![pycharm2](https://user-images.githubusercontent.com/114986832/210559581-72eedc49-1853-429b-afda-8741d7dee543.png)
+     
      Windows PowerShell 확인 후   
      ---conda activate web-env   
   
@@ -26,4 +30,13 @@ Windows Terminal로 miniconda 설치 및 세팅은 [링크](https://github.com/S
       ---django-admin startproject board .   
       ---python manage.py startapp bulletin_board   
       ---ls (상태 확인)
-         * django-admin startproject 프로젝트 이름 .(현재위치에)
+         * django-admin startproject 프로젝트이름 .(현재위치에)   
+         * python manage.py startapp app이름   
+         * 하나의 프로젝트 안에 여러 개의 application(ex. 인사, 재정 등) 존재함   
+           앞으로 manage.py가 app 생성함   
+           board라는 프로젝트 안에 bulletin_board app 있음   
+           같은 레벨처럼 보이지만 project 안에 app이므로 주의!   
+           ![1](https://user-images.githubusercontent.com/114986832/210558986-fc7118c5-1425-4dde-adb2-b19715b5c015.PNG)
+           
+ 3. Pycharm 세팅  
+           
