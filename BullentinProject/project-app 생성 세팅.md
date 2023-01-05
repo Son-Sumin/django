@@ -103,3 +103,8 @@
   web-env 확인 후   
   ---python manage.py makemigrations  (스크립트 자동 생성)   
   ---python manage.py migrate  (scheme 변경된 내용 적용)
+<br>  
+  
+
+### 참고
+위 사항 실시 중 에러 발생 시 Pycharm에서 제시한 방법에 따라 
