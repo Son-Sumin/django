@@ -61,4 +61,13 @@ Windows Terminal로 miniconda 설치 및 세팅은 [링크](https://github.com/S
       </code>
       </pre>
 
-**향후**
+#### 4. ORM 사용 예정 
+  - app과 db 인터페이스 시 둘을 연결하여 접근할 수 있게 하는 persistence API 필요(ex. JPA)   
+     * 방법1) SQL mapping - mybatis   
+     * 방법2) ORM(Object Relational Mapping)
+              django는 default로 ORM 제공   
+              객체를 생성하여 해당 필드 내용을 객체에 담아 갖고 오는 방법(getter/setter)
+
+<br/><br/>
+**향후 scheme 변경 시(column, table 등 관련) 반드시 ORM 통해 변경해야함**   
+**아니면 django와 내용 불일치로 인한 충돌 발생함(data CRUD는 )**
