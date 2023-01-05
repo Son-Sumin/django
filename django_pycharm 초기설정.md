@@ -18,6 +18,7 @@ Windows Terminal로 miniconda 설치 및 세팅은 [링크](https://github.com/S
       --- conda install -c anaconda django=3.2   
 
 #### 2. Pycharm 세팅   
+   - 가상환경에만 python이 설치되어 cmd에서 pip 사용 불가 시 [링크](https://github.com/Son-Sumin/python-practices/blob/main/1017%20%ED%8C%8C%EC%9D%B4%EC%B0%B8%20%EC%84%A4%EC%B9%98.md) 참고   
    - Pycharm   
      상단 File > new project > 아래 사진 참고 > ok     
      ![pycharm1](https://user-images.githubusercontent.com/114986832/210559528-cc534c3b-bc70-4ab2-a474-f11c6ac8adf6.png)
