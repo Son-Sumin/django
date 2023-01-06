@@ -44,13 +44,28 @@
   USE_TZ = False
 </code>
 </pre>
+<br>
+
+#### <참고>
+위 사항 실시 중 에러 발생 시 Pycharm에서 제시한 방법에 따라   
+C:\Users\BIT\miniconda3\envs\web-env\Lib\site-packages\django\db\backends\mysql\base.py
+35, 36line 주석 처리
 
 - Pycharm terminal   
   web-env 확인 후   
-  ---python manage.py migrate
-  ---python manage.py createsuperuser
-  ---python manage.py runserver
-<br>
+  ---python manage.py migrate   
+  ---python manage.py runserver   
+  
+- Server 접속하여 확인   
+  http://127.0.0.1:8000/   
+  http://127.0.0.1:8000/admin
+  
+- Pycharm terminal   
+  web-env 확인 후   
+  ---python manage.py createsuperuser   
+  ---python manage.py runserver   
+  user 등록하여 확인
+  
 
 <pre>
 <code>
@@ -104,7 +119,3 @@
   ---python manage.py makemigrations  (스크립트 자동 생성)   
   ---python manage.py migrate  (scheme 변경된 내용 적용)
 <br>  
-  
-
-### 참고
-위 사항 실시 중 에러 발생 시 Pycharm에서 제시한 방법에 따라 
