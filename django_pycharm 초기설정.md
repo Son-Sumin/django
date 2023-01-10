@@ -71,4 +71,8 @@ Windows Terminal로 miniconda 설치 및 세팅은 [링크](https://github.com/S
 
 <br/><br/>
 **향후 scheme 변경 시(column, table 등 관련) 반드시 ORM 통해 변경해야함**   
-**아니면 django와 내용 불일치로 인한 충돌 발생함(data CRUD는 )**
+**아니면 django와 내용 불일치로 인한 충돌 발생함(data CRUD는 )**   
+
+#### 5. 추후 Pycharm 접속 시 
+  - 상단 File > Settings > 좌측 Python Interpreter > Add Interpreter  > Add Local Interpreter >    
+    Environment 선택 > ok > Python Interpreter 선택 > Apply > ok
